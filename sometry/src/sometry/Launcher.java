@@ -6,8 +6,8 @@ import java.util.concurrent.BlockingQueue;
 public class Launcher {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
+				//This is updated on 10/23/2018
 			    BlockingQueue<String> queue = new ArrayBlockingQueue<String>(1);
 
 			    ReaderThread reader = new ReaderThread(queue);

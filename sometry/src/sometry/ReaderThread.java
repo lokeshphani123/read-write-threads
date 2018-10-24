@@ -11,6 +11,8 @@ import java.util.concurrent.BlockingQueue;
 public class ReaderThread implements Runnable{
  //   BlockingQueue<String> blockingQueue = new ArrayBlockingQueue<String>(100);
 
+	//This is updated on 10/23/2018
+
 	  protected BlockingQueue<String> blockingQueue = null;
 
 	  public ReaderThread(BlockingQueue<String> blockingQueue){
